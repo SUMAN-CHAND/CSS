@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+    <style>
+        h1 {
+            color: rgb(13, 225, 240);
+        }
+
+        div {
+            background-color: bisque;
+        }
+        p#red , h3{
+            /* This is to provied a default color This is coment*/
+            background-color: rebeccapurple;
+           color: white;
+        }
+        .blue{
+            background-color: blue;
+            color: rgb(255, 255, 255);
+            border: black;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>
+            This is my CSS selector page
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut alias ex facere     nemo explicabo provident,
+            consectetur incidunt illum minus voluptas obcaecati laudantium temporibus? Ducimus voluptatibus fugit,
+            aliquam mollitia similique nemo ab quo laborum eum.
+            <h1>This is another h1</h1>
+            <div id="red"> bg is red</div>
+        </p>
+        <span class="blue">first tag</span>
+        <span class="blue">second tag</span>
+        <span class="blue">third tag</span>
+        <h3>I am h3</h3>
+    </div>
+</body>
+
+</html>

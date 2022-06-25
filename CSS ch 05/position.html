@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+</head>
+<style>
+    /* *{
+        margin: 0;
+        padding: 0;
+    } */
+    body{
+        height: 4444px;
+    }
+    ul{
+        background-color: black;
+        height: 70px;
+    }
+    li{
+        /* display: inline; */
+        color: white;
+        list-style: square outside url('red.png') ;
+
+    }
+    p{
+        text-align: center;
+        border: 2px solid red;
+    } 
+    .contaner{
+        background-color: aqua;
+        height: 50vh;
+        width: 50vw;
+        margin: auto;
+        padding: 50px;
+        /* position: relative; */
+        
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+        /* height: 26px;
+    width: 57px; */
+    background-color: rgb(108, 243, 108);
+    /* position: relative; */
+    /* top: -52px; */
+    /* bottom: -31px; */
+    /* left: 751px; */
+    /* position: absolute; 
+     top: 0;
+    right: 0;
+    bottom: 0; */
+    /* position: fixed;
+    right: 0;
+    bottom: 0; */
+    
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.box2{
+    height: 200px; 
+       width: 200px; 
+       background-color: rgb(0, 17, 255);
+}
+    
+</style>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>contact</li>
+        </ul>
+    </header>
+    <nav class="contaner">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam corporis delectus necessitatibus itaque dolore non placeat, architecto quibusdam quod ea? Cum doloremque quam harum, voluptas rem facere deserunt eius ad voluptatum, atque nostrum ea.</p>
+        <div class="box">
+            I am box
+        </div>
+        <div class="box2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, voluptatem? Aspernatur, iusto.
+        </div>
+       
+    </nav>
+    <ul>
+        <li>Apple</li>
+        <li>Oranges</li>
+        <li>Banana</li>
+
+    </ul>
+</body>
+</html>
